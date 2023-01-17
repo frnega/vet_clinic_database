@@ -27,10 +27,8 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
   <br/>
-
-  <h3><b>Microverse README Template</b></h3>
 
 </div>
 
@@ -60,11 +58,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Vet_clinic database] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> In this project,used a relational database to create the initial data structure for a vet clinic. created a table to store animals' information, inserted some data into it, and query it.
 
-**[your_project__name]** is a...
+**[Vet_clinic database]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -72,21 +70,6 @@ After you're finished please remove all the comments and instructions!
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
 <summary>Database</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
@@ -99,19 +82,19 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[animal table is created]**
+- **[animals data are inserted into the database]**
+- **[data feted from animals table]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+<!-- - [Live Demo Link](https://yourdeployedapplicationlink.com) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,13 +102,21 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+Install PostgreSQL
+Clone the repository
+Run psql in your terminal
+Run CREATE DATABASE vet_clinic; to create the database
+Run \c vet_clinic; to connect to the database
+Run the \i schema.sql; command to create the tables
+Run the \i data.sql; command to insert data into the tables
+Run the \i queries.sql; command to run the queries
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
+   PostgreSQL
 
 <!--
 Example command:
@@ -139,6 +130,9 @@ Example command:
 
 Clone this repository to your desired folder:
 
+cd my-folder
+  git clone https://github.com/frnega/vet_clinic_database
+
 <!--
 Example commands:
 
@@ -148,9 +142,9 @@ Example commands:
 ```
 --->
 
-### Install
+<!-- ### Install -->
 
-Install this project with:
+<!-- Install this project with: -->
 
 <!--
 Example command:
@@ -161,9 +155,9 @@ Example command:
 ```
 --->
 
-### Usage
+<!-- ### Usage -->
 
-To run the project, execute the following command:
+<!-- To run the project, execute the following command: -->
 
 <!--
 Example command:
@@ -173,9 +167,9 @@ Example command:
 ```
 --->
 
-### Run tests
+<!-- ### Run tests
 
-To run tests, run the following command:
+To run tests, run the following command: -->
 
 <!--
 Example command:
@@ -185,9 +179,9 @@ Example command:
 ```
 --->
 
-### Deployment
+<!-- ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: -->
 
 <!--
 Example:
@@ -201,27 +195,20 @@ Example:
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Authors <a name="FREHIYWOT NEGA"></a>
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **FREHIYWOT NEGA**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@frnega](https://github.com/frnega)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+<!-- ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
 
@@ -229,17 +216,17 @@ Example:
 - [ ] **[new_feature_2]**
 - [ ] **[new_feature_3]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+<!-- ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- SUPPORT -->
 
